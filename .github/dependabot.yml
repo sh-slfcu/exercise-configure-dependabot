@@ -1,0 +1,8 @@
+# testing
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/.github/actions/local-action"
+    schedule:
+      interval: "daily"
